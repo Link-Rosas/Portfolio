@@ -1,0 +1,21 @@
+.abstract-background canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+@media (max-width: 1120px) {
+    .abstract-background:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(336deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
+    }
+    body.body-style-dark .abstract-background:before {
+        background: linear-gradient(336deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
+    }
+    .abstract-background canvas {
+        display: none;
+    }
+}

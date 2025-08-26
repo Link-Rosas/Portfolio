@@ -1,0 +1,42 @@
+
+---Downloaded files---
+The import files for: sysadmin were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://portfolio.test
+Data file = C:\laragon2025\www\Portfolio/wp-content/uploads/2025/08/demo-content-import-file_2025-08-26__02-35-28.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[ERROR] Failed to import "blog1" (Medios)
+[ERROR] Failed to import "blog2" (Medios)
+[ERROR] Failed to import "blog3" (Medios)
+[ERROR] Failed to import "work1" (Medios)
+[ERROR] Failed to import "work2" (Medios)
+[ERROR] Failed to import "work3" (Medios)
+[ERROR] Failed to import "work4" (Medios)
+[ERROR] Failed to import "work5" (Medios)
+[ERROR] Failed to import "work6" (Medios)
+[ERROR] Failed to import "work7" (Medios)
+[ERROR] Failed to import "work8" (Medios)
+[ERROR] Failed to import "avatar1" (Medios)
+[ERROR] Failed to import "pexels-mikhail-nilov-6963744" (Medios)
+[ERROR] Failed to import "testi1" (Medios)
+[ERROR] Failed to import "avatar2" (Medios)
+[ERROR] Failed to import "testi2" (Medios)
+[ERROR] Failed to import "certificate" (Medios)
+[ERROR] Failed to import "Dublin-Resume-Template-Modern" (Medios)
+[ERROR] Failed to import "brand2_w" (Medios)
+[ERROR] Failed to import "brand1_w" (Medios)
+[ERROR] Failed to import "brand3" (Medios)
+[ERROR] Failed to import "brand3_w" (Medios)
+[ERROR] Failed to import "news1" (Medios)
+[ERROR] Failed to import "news2" (Medios)
+
+
+---ocdi/after_import---
+

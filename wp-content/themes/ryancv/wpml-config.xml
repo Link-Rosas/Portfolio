@@ -1,0 +1,244 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">portfolio_categories</taxonomy> 
+    </taxonomies>
+    <elementor-widgets>
+    <widget name="ryancv-about-me">
+      <fields>
+          <field type="About Me: Title" editor_type="AREA">title</field>
+          <field type="About Me: Description" editor_type="VISUAL">description</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="About Me: Item Label" editor_type="AREA">label</field>
+          <field type="About Me: Item Value" editor_type="AREA">value</field>
+          <field type="About Me: Item Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-blog">
+      <fields>
+          <field type="Blog: Title" editor_type="AREA">title</field>
+          <field type="Blog: Load More Button" editor_type="LINE">load_more_btn_txt</field>
+          <field type="Blog: Pagination Button" editor_type="LINE">more_btn_txt</field>
+          <field type="Blog: Pagination Button Link" editor_type="LINK" key_of="more_btn_link">url</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-cf7-form">
+      <fields>
+          <field type="Contact Form 7: Title" editor_type="AREA">title</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-clients-carousel">
+      <fields>
+          <field type="Clients (Carousel): Title" editor_type="AREA">title</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Clients (Carousel): Item Name" editor_type="AREA">name</field>
+          <field type="Clients (Carousel): Item Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-clients">
+      <fields>
+          <field type="Clients: Title" editor_type="AREA">title</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Clients: Item Name" editor_type="AREA">name</field>
+          <field type="Clients: Item Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-custom-text">
+      <fields>
+          <field type="Custom Text: Title" editor_type="AREA">title</field>
+          <field type="Custom Text: Description" editor_type="VISUAL">description</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-fun-facts">
+      <fields>
+          <field type="Fun Facts: Title" editor_type="AREA">title</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Fun Facts: Item Label" editor_type="AREA">name</field>
+          <field type="Fun Facts: Item Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-heading-two">
+      <fields>
+          <field type="Heading Two: Subtitle" editor_type="AREA">subtitle</field>
+          <field type="Heading Two: Title" editor_type="AREA">title</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-heading">
+      <fields>
+          <field type="Heading: Title" editor_type="AREA">title</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-info-list-two">
+      <fields>
+          <field type="Info List Two: Label" editor_type="AREA">label</field>
+          <field type="Info List Two: Value" editor_type="AREA">value</field>
+          <field type="Info List Two: Link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-info-list">
+      <fields-in-item items_of="items">
+          <field type="Info List (Style-1): Item Label" editor_type="AREA">label</field>
+          <field type="Info List (Style-1): Item Value" editor_type="AREA">value</field>
+          <field type="Info List (Style-1): Item Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+      <fields>
+          <field type="Info List (Style-2): Label" editor_type="AREA">label_two</field>
+          <field type="Info List (Style-2): Value" editor_type="AREA">value_two</field>
+          <field type="Info List (Style-2): Link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+      <fields-in-item items_of="items_two">
+          <field type="Info List (Style-2): Item Tooltip" editor_type="AREA">tooltip</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-numbers">
+      <fields>
+          <field type="Numbers: Number" editor_type="AREA">num</field>
+          <field type="Numbers: Label" editor_type="AREA">label</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-portfolio">
+      <fields>
+          <field type="Portfolio: Title" editor_type="AREA">title</field>
+          <field type="Portfolio: Load More Button" editor_type="LINE">load_more_btn_txt</field>
+          <field type="Portfolio: Pagination Button" editor_type="LINE">more_btn_txt</field>
+          <field type="Portfolio: Pagination Button Link" editor_type="LINK" key_of="more_btn_link">url</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-pricing-2">
+      <fields>
+          <field type="Pricing Two: Title" editor_type="AREA">name</field>
+          <field type="Pricing Two: Price" editor_type="LINE">price</field>
+          <field type="Pricing Two: Button" editor_type="LINE">button</field>
+          <field type="Pricing Two: Button Link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-pricing">
+      <fields>
+          <field type="Pricing: Title" editor_type="AREA">name</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Info List (Style-1): Item Title" editor_type="AREA">name</field>
+          <field type="Info List (Style-1): Item Price" editor_type="LINE">price</field>
+          <field type="Info List (Style-1): Item Price (before)" editor_type="LINE">price_before</field>
+          <field type="Info List (Style-1): Item Price (after)" editor_type="LINE">price_after</field>
+          <field type="Info List (Style-1): Item List" editor_type="VISUAL">list</field>
+          <field type="Info List (Style-1): Item Button" editor_type="LINE">button</field>
+          <field type="Info List (Style-1): Item Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-products">
+      <fields>
+          <field type="Products: Title" editor_type="AREA">title</field>
+          <field type="Products: More Button" editor_type="LINE">more_btn_txt</field>
+          <field type="Products: More Button Link" editor_type="LINK" key_of="more_btn_link">url</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-quote">
+      <fields>
+          <field type="Quote: Title" editor_type="AREA">title</field>
+          <field type="Quote: Text" editor_type="AREA">text</field>
+          <field type="Quote: Name" editor_type="LINE">name</field>
+          <field type="Quote: Role" editor_type="LINE">role</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-resume-two">
+      <fields-in-item items_of="items">
+          <field type="Resume Two: Item Date" editor_type="AREA">date</field>
+          <field type="Resume Two: Item Name" editor_type="AREA">name</field>
+          <field type="Resume Two: Item Role" editor_type="AREA">role</field>
+          <field type="Resume Two: Item Text" editor_type="VISUAL">text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-resume">
+      <fields>
+          <field type="Resume: Title" editor_type="AREA">title</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Resume: Item Date" editor_type="AREA">date</field>
+          <field type="Resume: Item Name" editor_type="AREA">name</field>
+          <field type="Resume: Item Role" editor_type="AREA">role</field>
+          <field type="Resume: Item Text" editor_type="VISUAL">text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-services-two">
+      <fields>
+          <field type="Services Two: Subtitle" editor_type="AREA">subtitle</field>
+          <field type="Services Two: Title" editor_type="AREA">title</field>
+          <field type="Services Two: Description" editor_type="VISUAL">description</field>
+          <field type="Services Two: Button" editor_type="AREA">btn</field>
+          <field type="Services Two: Button Link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-services">
+      <fields>
+          <field type="Services: Title" editor_type="AREA">title</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Services: Item Name" editor_type="AREA">name</field>
+          <field type="Services: Item Link" editor_type="LINK" key_of="link">url</field>
+          <field type="Services: Item Description" editor_type="VISUAL">description</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-skills-two">
+      <fields>
+          <field type="Skills Two: Subtitle" editor_type="AREA">label</field>
+          <field type="Skills Two: Link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="ryancv-skills">
+      <fields>
+          <field type="Skills: Title" editor_type="AREA">title</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Skills: Item Name" editor_type="AREA">label</field>
+          <field type="Skills: Item Link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-hero">
+      <fields>
+          <field type="Hero: Subtitle" editor_type="AREA">subtitle</field>
+          <field type="Hero: Title" editor_type="AREA">title</field>
+          <field type="Hero: Description" editor_type="VISUAL">description</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Hero: Item Subtitles" editor_type="AREA">label</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-testimonials-2">
+      <fields>
+          <field type="Testimonials (Column-2): Title" editor_type="AREA">title</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Testimonials (Column-2): Text" editor_type="AREA">text</field>
+          <field type="Testimonials (Column-2): Name" editor_type="LINE">name</field>
+          <field type="Testimonials (Column-2): Role" editor_type="LINE">role</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-testimonials-3">
+      <fields>
+          <field type="Testimonials Two: Title" editor_type="AREA">title</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Testimonials Two: Text" editor_type="AREA">text</field>
+          <field type="Testimonials Two: Name" editor_type="LINE">name</field>
+          <field type="Testimonials Two: Role" editor_type="LINE">role</field>
+      </fields-in-item>
+    </widget>
+    <widget name="ryancv-testimonials">
+      <fields>
+          <field type="Testimonials: Title" editor_type="AREA">title</field>
+      </fields>
+      <fields-in-item items_of="items">
+          <field type="Testimonials: Text" editor_type="AREA">text</field>
+          <field type="Testimonials: Name" editor_type="LINE">name</field>
+          <field type="Testimonials: Role" editor_type="LINE">role</field>
+      </fields-in-item>
+    </widget>
+  </elementor-widgets>
+</wpml-config>
